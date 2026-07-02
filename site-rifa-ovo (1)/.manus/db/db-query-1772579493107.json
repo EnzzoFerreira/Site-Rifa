@@ -1,0 +1,9 @@
+{
+  "query": "DELETE FROM rifa_payments; DELETE FROM rifa_reservations;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3xKQi8doCy42UNZ.root --database mgY7HJBapD3Ceb3w7CQac8 --execute DELETE FROM rifa_payments; DELETE FROM rifa_reservations;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 483
+}
